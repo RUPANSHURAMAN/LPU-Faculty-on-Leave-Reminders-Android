@@ -1,4 +1,7 @@
 # LPU-Faculty-on-Leave-Reminders-Android
+
+Get faculty on leave notification from LPU UMS at morning and save your day!
+
 Greetings of the day!
 
 DISCLAIMER: This app is only for Lovely Professional University students.
