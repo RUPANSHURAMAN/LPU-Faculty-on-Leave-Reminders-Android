@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <EditTextPreference
+            android:dialogTitle="@string/dialog_title_change_name"
+            android:key="@string/key_display_name"
+            android:singleLine="true"
+            android:title="@string/title_change_name" />
+
+        <Preference
+            android:key="@string/key_enter_new_password"
+            android:persistent="false"
+            android:title="@string/enter_new_password">
+            <intent
+                android:targetClass="com.raman.myapplication4.LoginActivity"
+                android:targetPackage="@string/package_name" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Scheduler">
+        <Preference
+            android:persistent="false"
+            android:selectable="false"
+            android:summary="@string/summary_inexact_time" />
+        <!--    <SwitchPreference
+                android:key="@string/key_scheduler_status"
+                android:title="@string/scheduler" />
+    -->
+        <SwitchPreference
+            android:key="@string/key_is_24_hour_format"
+            android:summary="@string/default_time_12_hr_format"
+            android:title="@string/title_is_24_hour_format" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="@string/key_check_fol_for_half_day"
+            android:summary="@string/summary_check_fol_for_half_day"
+            android:title="@string/title_check_fol_for_half_day" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dependency="@string/key_check_fol_for_half_day"
+            android:dialogTitle="@string/dialog_title_delay_for_half_day_check"
+            android:entries="@array/pref_delay_for_half_day_check_entries"
+            android:entryValues="@array/pref_delay_for_half_day_check_values"
+            android:key="@string/key_delay_for_half_day_check"
+            android:summary="12:15 PM"
+            android:title="@string/title_key_delay_for_half_day_check" />
+
+        <!--     <Preference
+                 android:dependency="@string/key_scheduler_status"
+                 android:key="@string/key_scheduler_time"
+                 android:summary="@string/default_time_12_hr_format"
+                 android:title="@string/change_time" />
+        -->
+
+        <!--<MultiSelectListPreference
+            android:defaultValue="@array/pref_selected_days_default_values"
+            android:dialogIcon="@drawable/ic_schedule_black_24px"
+            android:dialogTitle="@string/select_days_long"
+            android:entries="@array/pref_selected_days_entries"
+            android:entryValues="@array/pref_selected_days_values"
+            android:key="@string/key_selected_days"
+            android:title="@string/select_days" />-->
+        <!--<RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:key="@string/key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:title="@string/title_vibrate" />-->
+    </PreferenceCategory>
+
+    <PreferenceScreen
+        android:enabled="false"
+        android:key="@string/key_pref_advanced_settings"
+        android:persistent="false"
+            android:title="@string/advanced_settings">
+
+            <PreferenceCategory android:title="WiFi">
+                <SwitchPreference
+                    android:defaultValue="true"
+                    android:key="@string/key_turn_wifi_off"
+                    android:summary="@string/summary_turn_wifi_off"
+                    android:title="@string/title_turn_wifi_off" />
+
+                <SwitchPreference
+                    android:defaultValue="true"
+                    android:dependency="@string/key_turn_wifi_off"
+                    android:key="@string/key_downloading_prevention"
+                    android:summary="@string/summary_downloading_prevention"
+                    android:title="@string/title_downloading_prevention" />
+
+            </PreferenceCategory>
+
+        <!--<PreferenceCategory android:title="Packet Data">
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="@string/key_use_packet_data"
+                android:summary="@string/summary_use_packet_data"
+                android:title="@string/title_use_packet_data" />
+        </PreferenceCategory>
+-->
+            <PreferenceCategory android:title="Advanced" />
+
+            <ListPreference
+                android:defaultValue="2"
+                android:dialogTitle="@string/title_select_window_size"
+                android:entries="@array/pref_window_size_entries"
+                android:entryValues="@array/pref_window_size_values"
+                android:key="@string/key_window_size"
+                android:summary="15 min"
+                android:title="@string/title_window_size" />
+
+            <PreferenceCategory android:title="About">
+                <Preference
+                    android:persistent="false"
+                    android:selectable="false"
+                    android:summary="@string/summary_window_size" />
+
+                <ListPreference
+                    android:defaultValue="1"
+                    android:dialogTitle="@string/title_select_max_retries"
+                    android:entries="@array/pref_max_retries_entries"
+                    android:entryValues="@array/pref_max_retries_values"
+                    android:key="@string/key_select_max_retries"
+                    android:summary="5"
+                    android:title="@string/title_max_retries" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="About">
+                <Preference
+                    android:selectable="false"
+                    android:summary="@string/summary_max_retries" />
+
+                <ListPreference
+                    android:defaultValue="0"
+                    android:dialogTitle="@string/title_select_time_to_wait_for_active_connection"
+                    android:entries="@array/pref_time_to_wait_for_active_connection_entries"
+                    android:entryValues="@array/pref_time_to_wait_for_active_connection_values"
+                    android:key="@string/key_time_to_wait_for_active_connection"
+                    android:summary="3 sec"
+                    android:title="@string/title_time_to_wait_for_active_connection" />
+                 
+            </PreferenceCategory>
+
+            <PreferenceCategory android:title="About">
+                <Preference
+                    android:selectable="false"
+                    android:summary="@string/summary_time_to_wait_for_active_connection" />
+            </PreferenceCategory>
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/dialog_title_time_to_wait_networks"
+            android:entries="@array/pref_time_to_wait_networks"
+            android:entryValues="@array/pref_time_to_wait_networks_values"
+            android:key="@string/key_time_to_wait_for_networks"
+            android:summary="30 sec"
+            android:title="@string/title_time_to_wait_networks_values" />
+         
+        <PreferenceCategory android:title="About">
+            <Preference
+                android:persistent="false"
+                android:selectable="false"
+                android:summary="@string/summary_time_to_wait_networks" />
+        </PreferenceCategory>
+        </PreferenceScreen>
+
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+        <Preference
+            android:key="@string/key_share"
+            android:title="@string/share_with_friends" />
+
+        <Preference android:title="@string/rate_now">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/play_store_link" />
+        </Preference>
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <Preference android:title="@string/help_guide">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/help_guide_url" />
+        </Preference>
+
+        <Preference android:title="@string/title_version">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/changelog_url" />
+        </Preference>
+         
+        <!-- preference opens url in browser -->
+        <Preference android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy" />
+        </Preference>
+        <Preference android:title="@string/about_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_about_developer" />
+        </Preference>
+
+        <Preference android:title="@string/about_tester">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_tester_url" />
+        </Preference>
+         
+
+        <!--<Preference android:title="@string/about_developer">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/about_developers_url" />
+        </Preference>-->
+    </PreferenceCategory>
+</PreferenceScreen>

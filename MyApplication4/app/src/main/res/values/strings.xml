@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">UnderCover</string>
+    <string name="title_activity_login">UMS Log in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_registration_number">Registration Number</string>
+    <string name="prompt_ums_password">UMS Password</string>
+    <string name="action_sign_in">LogIn</string>
+    <string name="error_invalid_registration_number">This registration number is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- related to nav activity-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="scheduler">Scheduler</string>
+    <string name="scheduler_settings">Scheduler Settings</string>
+    <string name="settings">Settings</string>
+    <string name="others">Others</string>
+    <string name="share_with_friends">Share with friends</string>
+    <string name="rate_app">Rate App</string>
+    <string name="about">About</string>
+
+    <!--related to recycler -->
+    <string name="ums_server_busy">UMS Server Down, Try again later…</string>
+    <string name="incorrect_registration_number_password_or_app_update_needed">Incorrect username or Password or app update needed!</string>
+    <string name="success">Success</string>
+    <string name="no_internet_access">No connection</string>
+    <string name="network_error">Network Error</string>
+    <string name="no_faculty_on_leave">No faculty on leave</string>
+    <string name="check_faculty_on_leave">Check Faculty on Leave</string>
+    <string name="prefix_no_of_faculty"> FACULTIES ON LEAVE</string>
+    <string name="prefix_no_of_faculty_single"> FACULTY ON LEAVE</string>
+    <string name="connection_timed_out">Connection timed out…</string>
+    <string name="try_again">Try Again</string>
+    <string name="password_changed_tap_msg_or_update_needed">Password changed (Tap to change password) or app update needed!</string>
+    <string name="enter_new_password">Enter new Password</string>
+    <string name="service_description">This service helps you to get FoL reminders</string>
+
+    <!-- Strings related to login -->
+    <string name="task_cancelled">Task cancelled</string>
+    <string name="content_description_display_picture">Display Picture</string>
+    <string name="send_to">Share with…</string>
+    <string name="no_wifi">No Internet Connection found</string>
+    <string name="string_log_out">Logout</string>
+    <string name="next_up">Next up</string>
+    <string name="download_share_link">Link to LPU UnderCover</string>
+    <string name="play_store_link">https://play.google.com/store/apps/details?id=com.raman.myapplication4</string>
+    <string name="share">Share</string>
+    <string name="string_session_closed">Session closed…</string>
+    <string name="change">Change</string>
+    <string name="swipe_to_refresh">Swipe down to refresh faculty on leave</string>
+    <string name="progress_msg">Authenticating…</string>
+    <string name="logo">Logo</string>
+    <string name="feedback">Feedback</string>
+    <string name="select_days">SELECT DAYS</string>
+    <string name="select_days_long">Add days on which reminders should be set</string>
+    <string name="fix">Fix</string>
+    <string name="enter_new_name">Enter new name</string>
+    <string name="dont_show_again">Don\'t Show again</string>
+    <string name="rate_now">Rate now!</string>
+
+    <!-- Strings related to about page-->
+    <string name="about_app">About app</string>
+    <string name="app_version_sid_v1_4">App Version - <a href="http://lpuundercover.blogspot.in/2017/07/changelog-of-lpu-undercover.html">sid v1.5</a></string>
+    <string name="changelog_url">http://lpuundercover.blogspot.in/2017/07/changelog-of-lpu-undercover.html</string>
+    <string name="rupanshu_raman_developed">Developed by <a href="https://in.linkedin.com/in/rupanshu-raman-4327a6125">Rupanshu Raman</a></string>
+    <string name="url_about_developer">https://in.linkedin.com/in/rupanshu-raman-4327a6125"</string>
+    <string name="sid_tested">Tested by <a href="http://lpuundercover.blogspot.in/2017/07/me-and-siddhartha-myneni.html">Siddhartha Mynemi</a></string>
+    <string name="about_tester_url">http://lpuundercover.blogspot.in/2017/07/me-and-siddhartha-myneni.html</string>
+    <string name="help_guide"><a href="http://lpuundercover.blogspot.in/2017/07/help-guide.html">Help Guide</a></string>
+    <string name="help_guide_url">http://lpuundercover.blogspot.in/2017/07/help-guide.html</string>
+    <string name="request_feature_bug"><a href="http://lpuundercover.blogspot.in/2017/07/upcoming-features.html">Request a Feature or Report a Bug</a></string>
+    <string name="permission_details"><a href="https://lpuundercover.blogspot.com/2017/07/permission-details.html">Permission Details</a></string>
+    <string name="privacy_policy_text">By using this app you agree to the <a href="http://lpuundercover.blogspot.in/2017/07/privacy-policy-of-lpu-undercover-app.html">Privacy Policy</a></string>
+
+    <!-- Strings related to about page-->
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_support">Got any queries? I am happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://lpuundercover.blogspot.in/2017/07/privacy-policy-of-lpu-undercover-app.html</string>
+    <string name="title_version">Version: 1.6</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+
+    <!-- Strings related to Settings -->
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="refresh_faculty_on_leave">Refresh Faculty on Leave</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="key_enter_new_password">key_enter_new_password</string>
+    <string name="key_scheduler">key_scheduler</string>
+    <string name="key_share">key_share</string>
+    <string name="key_help_guide">key_help_guide</string>
+    <string name="my_email">rupanshuraman@hotmail.com</string>
+    <string name="enabled">Enabled</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="key_scheduler_time">key_scheduler_time</string>
+    <string name="change_time">Change Time</string>
+    <string name="default_time_12_hr_format">1:00 PM</string>
+    <string name="default_time_24_hr_format">13:00</string>
+    <string name="key_selected_days">key_selected_days</string>
+    <string name="key_scheduler_status">key_scheduler_status</string>
+    <string name="key_display_name">key_display_name</string>
+    <string name="key_scheduler_adv_settings">key_scheduler_adv_settings</string>
+    <string name="key_turn_wifi_off">key_turn_wifi_off</string>
+    <string name="title_turn_wifi_off">Turn WiFi off</string>
+    <string name="summary_turn_wifi_off">after faculty on leave check</string>
+    <string name="title_downloading_prevention">Downloading Prevention</string>
+    <string name="summary_downloading_prevention">Don\'t turn off Wifi if downloading or already ON</string>
+    <string name="key_downloading_prevention">key_downloading_prevention</string>
+    <string name="title_use_packet_data">Use Packet data</string>
+    <string name="summary_use_packet_data">Use packet data for faculty on leave check if available (WiFi will not be switched on)</string>
+    <string name="key_use_packet_data">key_use_packet_data</string>
+    <string name="title_check_fol_for_half_day">Half Day Reminder</string>
+    <string name="summary_check_fol_for_half_day">Check faculty on leave after 12 PM for faculties who take half day leave</string>
+    <string name="key_check_fol_for_half_day">key_check_fol_for_half_day</string>
+    <string name="title_select_window_size">Select time frame</string>
+    <string name="title_window_size">Time Frame</string>
+    <string name="summary_window_size">For battery optimization from Android 5.0+, By default faculty on leave notification is delivered in a 15 min time frame. For example, If you chose 8 AM for faculty on leave notification then it will be delivered between 7:45 AM to 8 AM to take advantage of the battery optimizations.\nFor Android 4.4 and below, this setting has no effects as faculty on leave notification is delivered on the exact time.</string>
+    <string name="key_window_size">key_window_size</string>
+    <string name="summary_inexact_time">For battery optimization from Android 5.0+, By default faculty on leave notification is delivered in a 15 min time frame. For example, If you chose 8 AM for faculty on leave notification then it will be delivered between 7:45 AM to 8 AM to take advantage of the battery optimizations that reduce wakeups of the device.\nGo in advanced settings to customize this time frame.</string>
+    <string name="title_select_max_retries">Select maximum retries</string>
+    <string name="title_max_retries">Maximum retries</string>
+    <string name="summary_max_retries">Maximum retries to perform if faculty on leave check fails</string>
+    <string name="title_select_time_to_wait_for_active_connection">Select time to wait for establishing active internet connection</string>
+    <string name="title_time_to_wait_for_active_connection">Time to wait</string>
+    <string name="key_time_to_wait_for_active_connection">key_time_to_wait_for_active_connection</string>
+    <string name="summary_time_to_wait_for_active_connection">The time required to establish an active connection with ISP. In simple words, when you enable packet data an exclamation mark appears which disappears after successful establishment of an active connection. This wait time can be set by this setting.</string>
+    <string name="key_registration_number">key_registration_number</string>
+    <string name="key_password">key_password</string>
+    <string name="key_course_codes">key_course_codes</string>
+    <string name="key_time_stamp">key_time_stamp</string>
+    <string name="key_share_text">key_share_text</string>
+    <string name="key_is_dp_saved">key_is_dp_saved</string>
+    <string name="key_selected_hour">key_selected_hour</string>
+    <string name="key_selected_min">key_selected_min</string>
+    <string name="key_is_app_rated">key_is_app_rated</string>
+    <string name="key_rate_app_counter">key_rate_app_counter</string>
+    <string name="key_time_stamp_scheduler">key_time_stamp_scheduler</string>
+    <string name="key_today_done_date">key_today_done_date</string>
+    <string name="key_time_to_wait_for_networks">key_time_to_wait_for_networks</string>
+    <string name="key_select_max_retries">key_select_max_retries</string>
+    <string name="dialog_title_change_name">Enter new Name</string>
+    <string name="title_change_name">Change Name</string>
+    <string name="package_name">com.raman.myapplication4</string>
+    <string name="title_is_24_hour_format">Use 24-hour format</string>
+    <string name="key_is_24_hour_format">key_is_24_hour_format</string>
+    <string name="half_day_reminder">Half Day Reminder</string>
+    <string name="warn_half_day_for_settings">Switch ON Scheduler from home screen to enable this setting</string>
+    <string name="about_developer">About Developer</string>
+    <string name="title_time_to_wait_networks_values">Timeout for network finding</string>
+    <string name="dialog_title_time_to_wait_networks">Select Timeout</string>
+    <string name="summary_time_to_wait_networks">Time to wait for networks to get connected to device for faculty on leave reminder</string>
+    <string name="key_delay_for_half_day_check">key_delay_for_half_day_check</string>
+    <string name="title_key_delay_for_half_day_check">Time for Half day check</string>
+    <string name="dialog_title_delay_for_half_day_check">Time for Half day check</string>
+    <string name="key_pref_advanced_settings">key_pref_advanced_settings</string>
+    <string name="channel_name">LPU FOL Reminders</string>
+    <string name="channel_name_service">LPU FOL Reminders Service</string>
+    <string name="description_fol_reminder">Faculty on Leave reminder</string>
+    <string name="description_fol_reminder_service">Faculty on Leave reminder Service</string>
+    <string name="key_today_done_date_half_day">key_today_done_date_half_day</string>
+    <string name="about_tester">About Tester</string>
+    <string name="notif_are_blocked_warn">Notifications are blocked</string>
+    <string name="battery_saver_on_warn">Battery saver ON, may delay Scheduler</string>
+    <string name="enjoying_app_rate">Enjoying the app, Rate it?</string>
+    <string name="thanks_for_rating">Thanks for rating!</string>
+    <string name="my_hotmail_email">rupanshuraman@hotmail.com</string>
+    <string name="share_app_with_friends_text">Hi! This app helps me to get *faculty on leave reminders in morning automatically!!*\n\nDownload it from here\n</string>
+    <string name="sure_to_logout_warning">Are you sure you want to logout? This will delete all your saved settings.</string>
+    <string name="select_time_for_reminder">Select time to get reminded</string>
+    <string name="not_receive_fol_warn">You will not receive faculty on leave reminders.</string>
+    <string name="turn_off_scheduler_warn">Turn off scheduler?</string>
+    <string name="scheduler_turned_off_nothing_selected">Scheduler turned off as nothing was selected</string>
+    <string name="ums_login_url">https://ums.lpu.in/lpuums/loginnew.aspx</string>
+    <string name="ums_login_page_title">UMS | Lovely Professional University | University Management System</string>
+    <string name="ums_fol_table_id">table[id=wucStudentTeachersOnLeave1_GridView1]</string>
+    <string name="requestCode">requestCode</string>
+    <string name="__LASTFOCUS">__LASTFOCUS</string>
+    <string name="__EVENTTARGET">__EVENTTARGET</string>
+    <string name="__EVENTARGUMENT">__EVENTARGUMENT</string>
+    <string name="__VIEWSTATE">__VIEWSTATE</string>
+    <string name="__VIEWSTATEGENERATOR">__VIEWSTATEGENERATOR</string>
+    <string name="__VIEWSTATEGENERATOR_value">DD46A77E</string>
+    <string name="__SCROLLPOSITIONX">__SCROLLPOSITIONX</string>
+    <string name="__SCROLLPOSITIONY">__SCROLLPOSITIONY</string>
+    <string name="__VIEWSTATEENCRYPTED">__VIEWSTATEENCRYPTED</string>
+    <string name="__USERNAME">txtU</string>
+    <string name="__PASSWORD">Txtpw</string>
+    <string name="__DropDownList1">DropDownList1</string>
+    <string name="__ddlStartWith">ddlStartWith</string>
+    <string name="__iBtnLogin.x">iBtnLogins.x</string>
+    <string name="__iBtnLogin.y">iBtnLogins.y</string>
+    <string name="__DropDownList1_value">1</string>
+    <string name="__ddlStartWith_value">lpStudent.aspx</string>
+    <string name="__iBtnLogin_x_value">26</string>
+    <string name="__iBtnLogin_y_value">35</string>
+    <string name="__LASTFOCUS_value" />
+    <string name="__EVENTTARGET_value" />
+    <string name="__EVENTARGUMENT_value" />
+    <string name="__SCROLLPOSITIONX_value">0</string>
+    <string name="__SCROLLPOSITIONY_value">0</string>
+    <string name="__VIEWSTATEENCRYPTED_value" />
+    <string name="ums_landing_page_title">Lovely Professional University :: University Management System (UMS)</string>
+    <string name="ums_landing_page_photo_id">lblUserName</string>
+    <string name="saved_result_not_found">Saved data could not be found</string>
+    <string name="oops_ums_server_down_error">Oops! Something went wrong!</string>
+    <string name="want_half_day_reminders">Want half day reminders?</string>
+    <string name="will_be_delivered_at_12_15">Will be delivered at 12:15 PM</string>
+    <string name="change_dp">Change Profile Picture</string>
+    <string name="change_dw">Change Scheduler Wallpaper</string>
+    <string name="change_dsw">Change Sidebar Wallpaper</string>
+    <string name="key_color_primary">key_color_primary</string>
+    <string name="key_color_primary_dark">key_color_primary_dark</string>
+</resources>
